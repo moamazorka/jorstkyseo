@@ -5,10 +5,10 @@ RewriteRule ^(.+)$ $1.html [L,QSA]
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
 RewriteRule ^(.*)\.html$ /$1 [R=301,L]
 
-location /kulyampa.html/ {
-  return 301 /https://moamazorka.github.io/jorstkyseo/kulyampa8.html/$is_args$args;
+location /kulyampa8.html/ {
+  return 301 /kulyampa.html/$is_args$args;
 }
 
-location /pib.html/ {
-  return 301 /https://moamazorka.github.io/jorstkyseo/pib8.html/$is_args$args;
+location /pib8.html/ {
+  return 301 /pib.html/$is_args$args;
 }
