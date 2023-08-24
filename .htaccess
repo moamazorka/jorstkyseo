@@ -1,2 +1,6 @@
-Redirect 301 /https://moamazorka.github.io/jorstkyseo/kulyampa.html /https://moamazorka.github.io/jorstkyseo/kulyampa8.html
-Redirect 301 /https://moamazorka.github.io/jorstkyseo/pib.html /https://moamazorka.github.io/jorstkyseo/pib8.html
+location /https://moamazorka.github.io/jorstkyseo/kulyampa.html/ {
+  return 301 /https://moamazorka.github.io/jorstkyseo/kulyampa8.html/$is_args$args;
+}
+location /https://moamazorka.github.io/jorstkyseo/pib.html/ {
+  return 301 /https://moamazorka.github.io/jorstkyseo/pib8.html/$is_args$args;
+}
