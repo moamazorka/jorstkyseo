@@ -1,6 +1,7 @@
-location /https://moamazorka.github.io/jorstkyseo/kulyampa.html/ {
+location /kulyampa.html/ {
   return 301 /https://moamazorka.github.io/jorstkyseo/kulyampa8.html/$is_args$args;
 }
-location /https://moamazorka.github.io/jorstkyseo/pib.html/ {
+
+location /pib.html/ {
   return 301 /https://moamazorka.github.io/jorstkyseo/pib8.html/$is_args$args;
 }
